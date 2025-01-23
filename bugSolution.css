@@ -1,0 +1,15 @@
+/* bugSolution.css */
+.box {
+  width: calc(100px + 20px);
+  height: 100px;
+  background-color: lightblue;
+  /* Correct spacing and consistent units */
+}
+/*Example of fixing unit inconsistencies*/
+.box2 {
+  width: calc(50% + 50px);
+  /*Mixing percentage and pixels is acceptable*/
+  height: calc(100px + 2em);
+  /*Mixing pixels and ems is acceptable. The browser will handle the conversion*/
+  background-color: lightgreen;
+}
